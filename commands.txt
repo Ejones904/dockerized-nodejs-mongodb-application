@@ -1,0 +1,19 @@
+docker-compose
+docker ls
+docker ps
+ docker stop mongodb
+docker stop mongo-express
+docker-compose -f docker-compose.yaml up
+docker ps
+docker inspect mongo-express
+docker compose config
+docker compose down
+docker compose up -d
+docker ps
+docker compose config
+docker compose up -d
+docker ps
+docker logs js-app-mongo-express-1
+docker-compose -f docker-compose.yaml down
+docker ps
+doskey /history > commands.txt
